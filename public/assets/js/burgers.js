@@ -30,7 +30,7 @@ $("#updateburger").on("submit", function(event) {
     movie: $("#updateburger [name=burger]").val().trim()
   };
     // Send the PUT request.
-    $.ajax("localhost:3000/api/burgers/" + id, {
+    $.ajax("/api/burgers/" + id, {
       type: "PUT",
       data: updatedBurger
     }).then(
@@ -54,14 +54,14 @@ $("#updateburger").on("submit", function(event) {
       data: newBurger
     }).then(
       function() {
-        console.log("created new burger");
+        //console.log("created new burger");
         // Reload the page to get the updated list
         location.reload();
       }
     );
   });
 
-  $("#clearburger").on("submit", function(event) {
+  $("#clearburger").on("click", function(event) {
     // Make sure to preventDefault on a submit event.
     event.preventDefault();
 
@@ -70,7 +70,7 @@ $("#updateburger").on("submit", function(event) {
       type: "DELETE",
     }).then(
       function() {
-        console.log("deleted eaten burger");
+        //console.log("deleted eaten burger");
         // Reload the page to get the updated list
         location.reload();
       }
