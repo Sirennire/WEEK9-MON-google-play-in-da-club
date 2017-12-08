@@ -1,0 +1,26 @@
+<style>
+  body {
+    background-color: #f2ac4b;
+    color: white;
+    font-weight: bold;
+  }
+  .delburger {
+    background-color: #e8553e;
+    color: white;
+  }
+  .saveburger {
+    background-color: #2f9624;
+    color: white;
+  }
+  #brown {
+    color: brown;
+  }
+  #false {
+    color: yellow;
+    font-weight: bold;
+  }
+  h2 {
+    color: yellow;
+    font-weight: bold;
+  }
+</style>

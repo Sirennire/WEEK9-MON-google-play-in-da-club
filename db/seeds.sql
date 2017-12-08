@@ -1,0 +1,23 @@
+INSERT INTO burgers (burger_name, devoured)
+VALUES
+("Angus", false),
+("Bacon Cheeseburger", false),
+("Cheeseburger", false),
+("Chili Burger", false),
+("Barbecue Burger", false),
+("Hawaii Burger", false),
+("Slider", false),
+("Australasian Burger", false),
+('Bøfsandwich', false),
+('Butter burger', false),
+("Buffalo Burger", false),
+("Carolina Burger", false),
+("Curry Burger", false),
+("Green Chile Burger", false),
+("Hamdog", false),
+("Jucy Lucy", false),
+("Luther Burger", false),
+("Rice Burger", false),
+("Salmon Burger", false),
+("Slugburger", false),
+("Slopper", false);
